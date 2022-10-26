@@ -157,7 +157,7 @@ input#new-task {
 }
 
 /* Completed */
-ul#block-form__completed-tasks label {
+.block-form__list .block-tasks__title-tasks {
   text-decoration: line-through;
   color: #888;
 }
