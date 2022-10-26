@@ -4,48 +4,60 @@
   color: #333;
   font-family: lato, sans-serif;
 }
+
 .information {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .information .img-information {
   width: 100%;
 }
+
 .information .information__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.information { 
-  text-align: center;
+
+  .information { 
+    text-align: center;
+  }
+
 }
-}
+
 .block_main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .block-input__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .block-main__block-input {
   display: flex;
 }
+
 ul {
   margin:0;
   padding: 0px;
 }
+
 li,
 h3 {
   list-style:none;
 }
+
 input,button{
   outline:none;
 }
+
 .block-input__btn,
 .block-task__btn-delete,
 .block-task__btn-edit {
@@ -57,11 +69,13 @@ input,button{
   font-family: lato, sans-serif;
   cursor: pointer;
 }
+
 .block-input__btn:hover,
 .block-task__btn-delete:hover,
 .block-task__btn-edit:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .block-title,
 .form-title {
@@ -73,6 +87,7 @@ input,button{
   margin: 0;
   text-transform: uppercase;
 }
+
 .block-input__input,
 .block-form__text-input {
   margin: 0;
@@ -86,6 +101,7 @@ input,button{
   font-family: lato, sans-serif;
   color: #888;
 }
+
 .block-form__text-input:focus,
 .block-input__input:focus {
   color: #333;
@@ -96,6 +112,7 @@ input,button{
   display: block;
   margin: 0 0 20px;
 }
+
 input#new-task {
   width: 318px;
 }
@@ -109,6 +126,7 @@ input#new-task {
   justify-content: space-between;
   align-items: center;
 }
+
 .block-form__list > * {
   vertical-align: middle;
 }
@@ -116,6 +134,7 @@ input#new-task {
 .form-checkbox {
   margin: 0 10px;
 }
+
 .block-tasks__title-tasks  {
   padding-left: 10px;
   box-sizing: border-box;
@@ -123,6 +142,7 @@ input#new-task {
   width: 226px;
   overflow: hidden;
 }
+
 .block-form__text-input {
     width: 226px
 }
@@ -131,6 +151,7 @@ input#new-task {
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .block-task__img-remove:hover {
   transform: rotateZ(0);
 }
@@ -145,6 +166,7 @@ ul#block-form__completed-tasks label {
 .block-form__text-input {
   display:none
 }
+
 .block-tasks__edit .block-form__text-input {
   display:inline-block;
   width:224px
