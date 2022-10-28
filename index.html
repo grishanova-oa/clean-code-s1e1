@@ -1,62 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Todo App</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
         rel="stylesheet">
   <link rel="stylesheet"
         href="style.css"
-        media="screen"
-        charset="utf-8">
+        media="screen">
+  <meta charset="utf-8">
 </head>
-<body>
-  <div class="information">
-    <img src="./eisenhower-matrix.jpg">
+<body class="body">
+  <section class="information">
+    <img src="./eisenhower-matrix.jpg" class="img__information" alt="Eisenhower-matrix">
     <a class="information__link" 
         href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?
     </a>
-  </div>
-  <div class="block_main">
-    <label class="block-title" for="new-task">Add Item</label>
-    <div class="block-main__block-input">
-      <input id="new-task"class="block-input__input" type="text">
-      <button>Add</button>
-    </div>
-    <h3>Todo</h3>
+  </section>
+  <main class="block__main">
+    <article>
+      <label class="block-title" for="new-task">Add Item</label>
+      <div class="block-main__block-input">
+        <input class="block-input__input" id="new-task" type="text">
+        <button class="block-input__btn">Add</button>
+      </div>
+    </article>  
+    <h3 class="form__title">Todo</h3>
     <ul id="block-form__block-tasks">
-      <li>
-        <input type="checkbox">
-        <label class="block-tasks__title-tasks">Pay Bills</label>
-        <input type="text" class="block-form__block-tasks">
+      <li class="block-form__list">
+        <input class="form-checkbox" type="checkbox">
+        <label class="block-tasks__input">Pay Bills</label>
+        <input type="text" class="block-form__text-input">
         <button class="block-task__btn-edit">Edit</button>
         <button class="block-task__btn-delete">
-          <img src="./remove.svg">
+          <img src="./remove.svg" class="block-task__img-remove" alt="Delete">
         </button>
       </li>
-      <li class="block-tasks__edit">
-        <input type="checkbox">
-        <label class="block-form__block-tasks">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="block-form__block-tasks">
+      <li class="block-tasks__edit block-form__list">
+        <input class="form-checkbox" type="checkbox">
+        <label class="block-tasks__input">Go Shopping</label>
+        <input class="block-form__text-input" type="text" value="Go Shopping">
         <button class="block-task__btn-edit">Save</button>
         <button class="block-task__btn-delete">
-          <img src="./remove.svg">
+          <img src="./remove.svg" class="block-task__img-remove"  alt="Delete">
         </button>
       </li>
     </ul>
-    <h3>Completed</h3>
+    <h3 class="form__title">Completed</h3>
     <ul id="block-form__completed-tasks">
-      <li>
-        <input type="checkbox" checked>
-        <label class="block-form__block-tasks">See the Doctor</label>
-        <input type="text" class="block-form__block-tasks">
+      <li class="block-form__list">
+        <input class="form-checkbox" type="checkbox" checked>
+        <label class="block-tasks__input">See the Doctor</label>
+        <input type="text" class="block-form__text-input">
         <button class="block-task__btn-edit">Edit</button>
         <button class="block-task__btn-delete">
-          <img src="./remove.svg">
+          <img src="./remove.svg" class="block-task__img-remove"  alt="Delete">
         </button>
       </li>
     </ul>
-  </div>
+</main>
   <script src="app.js"></script>
 </body>
 </html>
