@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.information .img-information {
+.information .img__information {
   width: 100%;
 }
 
@@ -28,7 +28,7 @@
 
 }
 
-.block_main {
+.block__main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -78,7 +78,7 @@ input,button{
 
 /* Heading */
 .block-title,
-.form-title {
+.form__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -135,7 +135,7 @@ input,button{
   margin: 0 10px;
 }
 
-.block-tasks__title-tasks,
+.block-tasks__input,
 .block-form__task-input {
   padding-left: 10px;
   box-sizing: border-box;
@@ -158,7 +158,7 @@ input,button{
 }
 
 /* Completed */
-#block-form__completed-tasks .block-tasks__title-tasks {
+#block-form__completed-tasks .block-tasks__input {
   text-decoration: line-through;
   color: #888;
 } 
@@ -173,6 +173,6 @@ input,button{
   width:224px
 }
 
-.block-tasks__edit .block-tasks__title-tasks {
+.block-tasks__edit .block-tasks__input {
   display:none;
 }

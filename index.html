@@ -11,25 +11,25 @@
 </head>
 <body class="body">
   <section class="information">
-    <img src="./eisenhower-matrix.jpg" class="img-information" alt="Eisenhower-matrix">
+    <img src="./eisenhower-matrix.jpg" class="img__information" alt="Eisenhower-matrix">
     <a class="information__link" 
         href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?
     </a>
   </section>
-  <main class="block_main">
+  <main class="block__main">
     <article>
       <label class="block-title" for="new-task">Add Item</label>
       <div class="block-main__block-input">
-        <input id="new-task"class="block-input__input" type="text">
+        <input class="block-input__input" id="new-task" type="text">
         <button class="block-input__btn">Add</button>
       </div>
     </article>  
-    <h3 class="form-title">Todo</h3>
+    <h3 class="form__title">Todo</h3>
     <ul id="block-form__block-tasks">
       <li class="block-form__list">
         <input class="form-checkbox" type="checkbox">
-        <label class="block-tasks__title-tasks">Pay Bills</label>
+        <label class="block-tasks__input">Pay Bills</label>
         <input type="text" class="block-form__text-input">
         <button class="block-task__btn-edit">Edit</button>
         <button class="block-task__btn-delete">
@@ -38,19 +38,19 @@
       </li>
       <li class="block-tasks__edit block-form__list">
         <input class="form-checkbox" type="checkbox">
-        <label class="block-tasks__title-tasks">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="block-form__text-input">
+        <label class="block-tasks__input">Go Shopping</label>
+        <input class="block-form__text-input" type="text" value="Go Shopping">
         <button class="block-task__btn-edit">Save</button>
         <button class="block-task__btn-delete">
           <img src="./remove.svg" class="block-task__img-remove"  alt="Delete">
         </button>
       </li>
     </ul>
-    <h3 class="form-title">Completed</h3>
+    <h3 class="form__title">Completed</h3>
     <ul id="block-form__completed-tasks">
       <li class="block-form__list">
         <input class="form-checkbox" type="checkbox" checked>
-        <label class="block-tasks__title-tasks">See the Doctor</label>
+        <label class="block-tasks__input">See the Doctor</label>
         <input type="text" class="block-form__text-input">
         <button class="block-task__btn-edit">Edit</button>
         <button class="block-task__btn-delete">

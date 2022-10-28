@@ -35,7 +35,7 @@ var createNewTaskElement=function(taskString){
     listItem.className = "block-form__list"
 
     label.innerText=taskString;
-    label.className='block-tasks__title-tasks';
+    label.className='block-tasks__input';
 
     //Each elements, needs appending
     checkBox.classList = "form-checkbox";
