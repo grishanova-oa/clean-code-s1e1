@@ -113,7 +113,7 @@ input,button{
   margin: 0 0 20px;
 }
 
-input#new-task {
+#new-task {
   width: 318px;
 }
 
@@ -127,7 +127,7 @@ input#new-task {
   align-items: center;
 }
 
-.block-form__list> * {
+.block-form__list > * {
   vertical-align: middle;
 }
 
@@ -135,7 +135,8 @@ input#new-task {
   margin: 0 10px;
 }
 
-.block-tasks__title-tasks  {
+.block-tasks__title-tasks,
+.block-form__task-input {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -144,7 +145,7 @@ input#new-task {
 }
 
 .block-form__text-input {
-    width: 226px
+    width: 226px;
 }
 .block-task__img-remove {
   height: 2em;
@@ -157,10 +158,10 @@ input#new-task {
 }
 
 /* Completed */
-.block-form__list .block-tasks__title-tasks {
+#block-form__completed-tasks .block-tasks__title-tasks {
   text-decoration: line-through;
   color: #888;
-}
+} 
 
 /* Edit Task */
 .block-form__text-input {
